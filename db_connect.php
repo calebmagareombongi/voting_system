@@ -1,11 +1,11 @@
 <?php
 
 // Connection information
-$host = "mysql-3243c5eb-calebmagareombongi-16ac.a.aivencloud.com";
-$port = 10068;
-$dbname = "defaultdb";
-$user = "avnadmin";
-$password = "AVNS_BRhBTq5jTQ7lEwDiIv1"; // Replace this with the actual password
+$host = "host_name";
+$port = my-port;
+$dbname = "my-db";
+$user = "my_user_name";
+$password = "my_password"; // Replace this with the actual password
 
 // Create a MySQLi connection
 $conn = new mysqli($host, $user, $password, $dbname, $port);
